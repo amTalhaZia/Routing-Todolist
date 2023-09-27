@@ -1,0 +1,41 @@
+/* Todo.css */
+.todo-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .input-container {
+    margin: 20px 0;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Style the Delete button */
+  button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,28 @@
+/* Navbar.css */
+body {
+    background-color: rgb(28, 26, 25); /* Set the background color of the entire body to black */
+    color: white; /* Set the default text color for the entire body */
+  }
+  
+  .header {
+    background-color: #333; /* Adjust header background color to contrast with black */
+    padding: 10px 0;
+  }
+  
+  .nav {
+    display: inline-block;
+  }
+  
+  .nav-link {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 20px;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(23, 202, 172);
+  }
+  

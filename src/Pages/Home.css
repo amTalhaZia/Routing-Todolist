@@ -1,0 +1,51 @@
+.Text{
+    text-align: center;
+    color: crimson;
+}
+.Text {
+    font-size: 24px; /* Adjust the font size */
+  }
+  
+  /* Style the contact form container */
+  .contact-form {
+    background-color: rgba(255, 255, 255, 0.1); /* Add a semi-transparent white background to the form */
+    padding: 12px;
+    border-radius: px;
+    margin-top: 20px; /* Add some space between the header and the form */
+    width: 750;
+  }
+  
+  /* Style the form labels */
+  label {
+    display: block; /* Display labels on a new line */
+    margin-bottom: 5px; /* Add space between labels and inputs */
+  }
+  
+  /* Style the form inputs and textarea */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #007bff; /* Change the button color to blue */
+    color: white; /* Set text color to white */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style the thank you message */
+  .thank-you-message {
+    background-color: rgba(255, 255, 255, 0.1); /* Add a semi-transparent white background to the message */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
